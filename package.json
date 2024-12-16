@@ -1,0 +1,17 @@
+{
+  "name": "create-elite-xpress",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Elite-xpress is simple boilerplate for building a rest api with express and typescript.",
+  "readme": "README.npm.md",
+  "bin": {
+    "create-elite-xpress": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
+}
