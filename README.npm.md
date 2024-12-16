@@ -1,24 +1,23 @@
 # Elite-xpress
 
 ## Description
+
 Elite-xpress is simple boilerplate for building a rest api with express and typescript.
 
-## Installation
+## Quick Start
+
 ```bash
 npx create-elite-xpress my-app
 ```
 
-## Usage
+```bash
+cd my-app
+```
 
 ```bash
-// cd to your project directory
-cd my-app 
-
-// install dependencies
-npm install
-
-// run the development server
 npm run dev
+
+# Visit `http://localhost:8000` to see your API in action!
 ```
 
 ## Build
@@ -32,4 +31,3 @@ npm run build
 ```bash
 npm run start
 ```
-
