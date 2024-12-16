@@ -1,6 +1,6 @@
 {
   "name": "create-elite-xpress",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "Elite-xpress is simple boilerplate for building a rest api with express and typescript.",
   "readme": "README.npm.md",

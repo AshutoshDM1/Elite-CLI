@@ -1,28 +1,48 @@
-# Elite-xpress
+# 🚀 Elite-xpress
 
-## Description
+<div align="center">
 
-Elite-xpress is simple boilerplate for building a rest api with express and typescript.
+[![npm version](https://img.shields.io/npm/v/create-elite-xpress.svg?style=flat)](https://www.npmjs.com/package/create-elite-xpress)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-## Installation Dependencies
+A lightning-fast boilerplate for building REST APIs with Node.js + Express.js and TypeScript.
+
+</div>
+
+---
+
+## Quick Start
+
 ```bash
-npm install
+npx create-elite-xpress my-app
 ```
 
-## Usage
+```bash
+cd my-app
+```
 
 ```bash
 npm run dev
 ```
 
-## Build
-
 ```bash
-npm run build
+# Visit `http://localhost:8000` to see your API in action!
 ```
 
-## Start
+## ✨ Features
 
-```bash
-npm run start
-```
+- 🚀 Express.js with TypeScript
+- 📁 Pre-configured folder structure
+- 🛣️ Basic routing setup
+- 🔒 CORS enabled
+- ⚙️ Environment variables configuration
+- 🔄 Hot reload development server
+
+keywords:
+
+- cli
+- express
+- typescript
+- rest api
+- boilerplate
