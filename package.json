@@ -1,17 +1,22 @@
 {
-  "name": "create-elite-xpress",
-  "version": "1.0.2",
+  "name": "create-elite-app",
+  "version": "2.0.2",
   "type": "module",
-  "description": "Elite-xpress is simple boilerplate for building a rest api with express and typescript.",
-  "readme": "README.npm.md",
+  "description": "Elite-App is a powerful CLI tool for scaffolding Express and Next.js projects",
   "bin": {
-    "create-elite-xpress": "./bin/cli.js"
+    "create-elite-cli": "./bin/cli.js"
   },
   "files": [
     "bin",
     "template"
   ],
+  "scripts": {
+    "prepublishOnly": "cp README.npm.md README.md",
+    "postpublish": "git checkout README.md"
+  },
   "dependencies": {
-    "chalk": "^5.0.0"
-  }
+    "chalk": "^5.0.0",
+    "inquirer": "^9.2.15"
+  },
+  "private": false
 }

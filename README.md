@@ -1,8 +1,8 @@
-# 🚀 Elite-xpress
-
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/create-elite-xpress.svg?style=flat)](https://www.npmjs.com/package/create-elite-xpress)
+# 🚀 Elite-cli
+
+[![npm version](https://img.shields.io/npm/v/create-elite-app.svg)](https://www.npmjs.com/package/create-elite-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
@@ -17,34 +17,64 @@ A lightning-fast boilerplate for building REST APIs with Node.js + Express.js an
 ## Quick Start
 
 ```bash
-npx create-elite-xpress my-app
+npx create-elite-app
 ```
 
 ```bash
-cd my-app
+cd your-project-name
 ```
 
 ```bash
 npm run dev
 ```
-```bash
-# Visit `http://localhost:8000` to see your API in action!
-```
 
-## Features
 
+## Update 2.0.0 
+
+Elite-CLI now Gives Frontend and Backend.
+
+- Added Next.js + Shadcn 
+![next + shadcn](https://res.cloudinary.com/dnvl8mqba/image/upload/v1734442463/Elite-CLI/Screenshot_2024-12-17_190143_py46ue.png)
+
+
+## ✨ Features
+
+### Backend Features
+  
 - 🚀 Express.js with TypeScript
 - 📁 Pre-configured folder structure
 - 🛣️ Basic routing setup
 - 🔒 CORS enabled
 - ⚙️ Environment variables configuration
-- 🔄 Development server with hot reload with nodemon and ts-node
+- 🔄 Hot reload development server
+- 🔐 Authentication ready with JWT
+- 📝 Swagger API documentation
+- 🧪 Jest testing setup
+- 🔍 ESLint and Prettier configuration
+- 🗃️ MongoDB/PostgreSQL database setup
+- 📦 Docker configuration
+- 🚦 Rate limiting middleware
+- 📊 Basic logging setup
+- 🔨 Error handling middleware
+
+### Frontend Features
+
+- 🎨 Next.js 14 with App Router
+- 🎯 TypeScript for type safety
+- 🎭 Shadcn/UI components
+- 🔐 NextAuth.js authentication
+- 📱 Responsive layouts
+- 🎨 Tailwind CSS for styling
+- 🏃 Fast refresh development
+- 📦 Optimized build system
+- 🔍 SEO optimized
+- 🌙 Dark mode support
+- 🧪 Testing setup with Jest
+- 🔍 ESLint and Prettier configuration
 
 ## 🛣️ API Endpoints
 
 - `GET /` - Welcome message
-- `GET /api` - API root endpoint
-- `GET /health` - Health check endpoint
 
 ## 🤝 Contributing
 
