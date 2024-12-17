@@ -17,26 +17,21 @@ const backendTypes = [
 const frontendTypes = [
   { name: chalk.whiteBright("Next.js + Shadcn/UI"), value: "next-shadcn" },
   { name: chalk.magenta("Next.js + NextAuth"), value: "next-shadcn" },
-  { name: chalk.blue("Vite + React + clerk"), value: "next-shadcn" },
+  { name: chalk.blue("Vite + React + Tailwind"), value: "react-vite-tailwind" },
 ];
 
 // Add this function to filter out node_modules and other unwanted files
 function filterCopyFiles(src, dest) {
   const stats = fs.statSync(src);
-  
+
   // Skip node_modules directories
-  if (stats.isDirectory() && src.includes('node_modules')) {
+  if (stats.isDirectory() && src.includes("node_modules")) {
     return false;
   }
-  
+
   // Skip other common files/directories you don't want to copy
-  const skipPatterns = [
-    '.DS_Store',
-    '.git',
-    '.next',
-    'build'
-  ];
-  
+  const skipPatterns = [".DS_Store", ".git", ".next", "build"];
+
   const baseName = path.basename(src);
   return !skipPatterns.includes(baseName);
 }
@@ -103,9 +98,9 @@ async function init() {
 
   // Copy template files based on framework with filtering
   const templateDir = path.join(__dirname, `../templates/${framework}`);
-  fs.cpSync(templateDir, projectName, { 
+  fs.cpSync(templateDir, projectName, {
     recursive: true,
-    filter: filterCopyFiles
+    filter: filterCopyFiles,
   });
 
   // Update package versions if requested
